@@ -1,0 +1,67 @@
+:root {
+  font-family: "Outfit";
+}
+/* adding font in root, since project uses only one main font. */
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d5e1ef;
+}
+/* body style, aligning and background  */
+
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 98vh;
+}
+/* main to separate main content from footer text */
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 20px;
+  width: 20rem;
+  height: 31.2rem;
+  box-shadow: 0 25px 25px rgba(0, 0, 0, 0.0477);
+}
+#qr-img {
+  border-radius: 10px;
+  height: 18rem;
+  width: 18rem;
+  margin-top: 1rem;
+}
+#text {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 0 2rem 2rem 2rem;
+  text-align: center;
+}
+#cta-h3 {
+  font-size: 1.375rem;
+}
+#info-text {
+  font-size: 0.95rem;
+  margin: 0;
+}
+/* "content"-card style */
+
+footer {
+  height: 2vh;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+/* footer style */
