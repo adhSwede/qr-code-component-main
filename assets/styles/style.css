@@ -18,7 +18,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 98vh;
+  height: 100vh;
 }
 /* main to separate main content from footer text */
 
@@ -45,7 +45,7 @@ body {
   margin: 0 2rem 2rem 2rem;
   text-align: center;
 }
-#cta-h3 {
+#cta-h1 {
   font-size: 1.375rem;
 }
 #info-text {
@@ -55,8 +55,11 @@ body {
 /* "content"-card style */
 
 footer {
-  height: 2vh;
+  position: absolute;
+  bottom: 2rem;
 }
+/* absolute position to not disturb the flow of the page */
+
 .attribution {
   font-size: 11px;
   text-align: center;
