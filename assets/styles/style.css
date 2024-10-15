@@ -43,17 +43,19 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 0 2rem;
+  margin: 0.5rem 2rem 0;
   text-align: center;
   color: #1f314f;
 }
 #cta-h1 {
   font-size: 22px;
-  font-weight: bold;
+  font-weight: 700;
 }
 #info-text {
   font-size: 15px;
   margin: 0;
+  font-weight: 300;
+  padding: 0;
 }
 /* "content"-card style */
 
