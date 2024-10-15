@@ -40,14 +40,15 @@ body {
 }
 #text {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
-  box-sizing: border-box;
-  margin: 0 2rem 2rem 2rem;
+  margin: 0 2rem;
   text-align: center;
 }
 #cta-h1 {
   font-size: 22px;
-  font-weight: 600px;
+  font-weight: bold;
 }
 #info-text {
   font-size: 15px;
