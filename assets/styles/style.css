@@ -47,12 +47,11 @@ body {
 }
 #cta-h1 {
   font-size: 1.375rem;
-  font-weight: 700px;
+  font-weight: 600px;
 }
 #info-text {
   font-size: 0.95rem;
   margin: 0;
-  font-weight: 400px;
 }
 /* "content"-card style */
 
