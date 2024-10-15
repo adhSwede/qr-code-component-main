@@ -46,11 +46,11 @@ body {
   text-align: center;
 }
 #cta-h1 {
-  font-size: 1.375rem;
+  font-size: 22px;
   font-weight: 600px;
 }
 #info-text {
-  font-size: 0.95rem;
+  font-size: 15px;
   margin: 0;
 }
 /* "content"-card style */
